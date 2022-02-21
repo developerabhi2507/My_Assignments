@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+table, tr{
+    background-image: linear-gradient(darkgreen, black);
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    /* border: 5px solid darkgreen; */
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#result{
+    width: 300px;
+    height: 120px;
+}
+button {
+    background-color: black;
+    color: azure;
+    height: 45px;
+    width: 100px;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    font-weight: bold;  
+    border-radius: 40%;
+}
+input{
+    background-color: darkslategray;
+    color: wheat;
+    text-align: justify;
+    font-size: 30px;
+}
+button:hover{
+    /* background-image: linear-gradient(darkred, blue, black); */
+    background-color: gray;
+}
